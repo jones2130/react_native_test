@@ -10,12 +10,13 @@ import HelloWorldApp from './testviews/helloworld/HelloWorldApp';
 import LotsOfStyles from './testviews/style/LotsOfStyles';
 import ManyGreetings from './testviews/greetings/ManyGreetings';
 import PizzaTranslator from './testviews/textInput/PizzaTranslator';
+import ScrollableView from './testviews/scrollView/ScrollableView';
 import Touchables from './testviews/touchInput/Touchables';
 
 export default class App extends React.Component {
   render() {
     return (
-        <Touchables></Touchables>
+        <ScrollableView></ScrollableView>
     );
   }
 }
