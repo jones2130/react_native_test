@@ -10,6 +10,7 @@ import FlexDimensionsBasics from './testviews/dimensions/FlexDimensionsBasics';
 import HelloWorldApp from './testviews/helloworld/HelloWorldApp';
 import LotsOfStyles from './testviews/style/LotsOfStyles';
 import ManyGreetings from './testviews/greetings/ManyGreetings';
+import Movies from './testviews/networking/Movies';
 import PizzaTranslator from './testviews/textInput/PizzaTranslator';
 import ScrollableView from './testviews/scrollView/ScrollableView';
 import SectionListBasics from './testviews/listView/SectionListBasics';
@@ -18,7 +19,7 @@ import Touchables from './testviews/touchInput/Touchables';
 export default class App extends React.Component {
   render() {
     return (
-        <SectionListBasics></SectionListBasics>
+        <Movies></Movies>
     );
   }
 }
